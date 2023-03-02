@@ -74,7 +74,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 	if (binary_tree_is_leaf(tree))
 		return (1);
 	l = tree->left;
-	r = tree->right;r = tree->right;
+	r = tree->right;
 	l_height = binary_tree_height(l);
 	r_height = binary_tree_height(r);
 	if (l_height == r_height)
